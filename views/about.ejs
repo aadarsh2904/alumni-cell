@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Alumni Cell Website</title>
+<link rel="stylesheet" href="/public/style.css" >
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">     
+<!------------->
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+   Integrity = "sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+   crossorigin = "anonymous" referrerpolicy = "no-referrer"> </script>
+</head>
+<body>
+<section class="about-header">
+<nav>
+    <!--<a href="index.ejs"><img src="images/logo.png"></a>-->
+<div class="nav-links">
+    <ul>
+      <li><a href="home.ejs">HOME</a></li>
+      <li><a href="about.ejs">ABOUT</a></li>
+      <li><a href="contact.ejs">CONTACT</a></li>
+    </ul>
+</div>
+</nav>
+<h1>About Us</h1>
+</section>
+<!--------------content----->
+<section class="content">
+<div class="row">
+<div class="about-co">
+<h1>About IIT Indore</h1>
+<p>
+    The Alumni Association of IITI aims to strengthen the pre-existing collaboration between the institute and its Alumni in the former's pursuit of perfection. A strong and established Alumni network is the key factor in designing the performance chart of an Institute and we at IITI believe in aiming to enhance institute's development by bringing in numerous opportunities for both the Alumni and their respective corporations, as well as the students.<br>IIT Indore currently boasts of about 1500 registered alumni, including both former undergraduate and graduate students. A bountiful number of persons among these are successfully engaged in nation-building by advancing services to Public Sector Units and internationally renowned organizations, while some others have taken up entrepreneurial digressions.,<br>
+    The Alumni Association holds a vision to render support to Corporations as well as the nurturing pupils and to utilize and to augment Institute's endowments.
+</p>
+
+</div>
+<div class="about-co">
+<img src="../public/images/convocation 2019.jpg">
+</div>
+</div>
+</section>
+<section class="mem">
+    <h1>Alumni Cell Members</h1>
+    <div class="r">
+    <div class="mem-col">
+      <img src="../public/images/shravesh.jpg">
+      <h3>S Shrevesh</h3>
+    <p>General Secretary- Counselling, Outreach and Alumni</p>
+    </div>
+    <div class="mem-col">
+        <img src="../public/images/convocation 2019.jpg">
+        <h3>S Shrevesh</h3>
+      <p>General Secretary- Counselling, Outreach and Alumni</p>
+      </div>
+      <div class="mem-col">
+        <img src="../public/images/convocation 2019.jpg">
+        <h3>S Shrevesh</h3>
+      <p>General Secretary- Counselling, Outreach and Alumni</p>
+      </div>
+      <div class="mem-col">
+        <img src="../public/images/convocation 2019.jpg">
+        <h3>S Shrevesh</h3>
+      <p>General Secretary- Counselling, Outreach and Alumni</p>
+      </div>
+     <div class="mem-col">
+      <img src="../public/images/convocation 2019.jpg">
+      <h3>S Shrevesh</h3>
+    <p>General Secretary- Counselling, Outreach and Alumni</p>
+    </div>
+
+</div>
+</section>
+<section class="footer">
+    <h5>About Us</h5>
+    <p>We are a vibrant community of graduates committed to fostering lifelong connections,<br> promoting professional growth, and contributing to the development of our beloved alma mater, IIT Indore.
+    </p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-instagram"></i>
+    </div>
+    </section>  
+    <label class = "toggleButton">
+        <input type = "checkbox" id = "toggle">
+        <div class = "roundButton circle" ></div>
+      </label>
+    </body>
+    <script>
+    $('#toggle').change(() => {
+        if ($('#toggle').is(":checked")) {
+           $("body").addClass("dark-class");
+        } else {
+           $("body").removeClass("dark-class")
+        }
+     })
+</script>
+
+
+</html>
+
+
+
+
